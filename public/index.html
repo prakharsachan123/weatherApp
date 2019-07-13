@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Weather-app</title>
+    <link rel="stylesheet" href="./bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="./materialize/css/materialize.min.css"> -->
+    <style>
+        body{
+            background: url('./images/main.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .results{
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="">
+                <div class="container">
+                <h1 class="display-1 text-primary">Weather App</h1>
+                <br>
+                <label class="text-success">Enter a location</label>
+                <input type="text" class="form-control" id="location"> <br>
+                <button class="btn btn-success" onclick="search()">Search</button>
+                <br>
+                <div class="results"></div>
+    </div>
+
+    <!-- scripts -->
+    <script src="./bootstrap-4.3.1-dist/js/jquery-3.4.0.js"></script>
+    <script src="./bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <!-- <script src="./materialize/js/materialize.min.js"></script> -->
+    <script src="./main.js"></script>
+</body>
+</html>
+
